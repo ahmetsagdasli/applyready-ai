@@ -38,7 +38,7 @@ function sleep(ms) {
 //
 // Bu fonksiyon llm/index.js'teki provider registry sozlesmesini (contract)
 // uygular: generateRaw({ systemPrompt, userPrompt, temperature, agentName })
-// -> Promise<string>. Yeni bir saglayici (orn. Anthropic) eklemek icin ayni
+// -> Promise<string>. Yeni bir saglayici eklemek icin ayni
 // imzaya sahip bir modul yazip registry'e eklemek yeterlidir.
 export async function generateRaw({
   systemPrompt,

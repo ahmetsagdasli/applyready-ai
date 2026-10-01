@@ -4,10 +4,10 @@ import * as openaiProvider from './providers/openai.js';
 // LLM saglayici registry. Her saglayici modulu ayni sozlesmeyi uygular:
 // generateRaw({ systemPrompt, userPrompt, temperature, agentName }) -> Promise<string>
 //
-// Yeni bir saglayici eklemek icin (orn. Anthropic/Claude):
-// 1) providers/anthropic.js yazip ayni generateRaw imzasini uygulayin.
+// Yeni bir saglayici eklemek icin (orn. baska bir LLM API'si):
+// 1) providers/<isim>.js yazip ayni generateRaw imzasini uygulayin.
 // 2) asagidaki PROVIDERS map'ine ekleyin.
-// 3) server/.env icinde LLM_PROVIDER=anthropic ayarlayin.
+// 3) server/.env icinde LLM_PROVIDER=<isim> ayarlayin.
 // Agent kodlarinda (baseAgent.js) HICBIR degisiklik gerekmez; hepsi bu
 // modulden gelen generateRaw'i cagirir.
 const PROVIDERS = {
