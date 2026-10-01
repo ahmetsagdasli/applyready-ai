@@ -1,0 +1,29 @@
+Senior Backend Engineer
+
+About us
+Northbeam Logistics builds real-time tracking and routing software for
+freight carriers. We are hiring a Senior Backend Engineer to help scale our
+core API platform.
+
+Responsibilities
+- Design and maintain REST and event-driven APIs serving high-throughput
+  logistics data.
+- Operate and improve our Kubernetes-based deployment platform on AWS (EKS).
+- Own PostgreSQL schema design and query performance for multi-tenant data.
+- Collaborate with the platform team on CI/CD and observability.
+- Mentor junior engineers and participate in architecture reviews.
+
+Requirements
+- 4+ years of backend engineering experience.
+- Strong experience with Node.js or Python in production.
+- Hands-on experience with Kubernetes in production (required).
+- Solid understanding of PostgreSQL and relational data modeling.
+- Experience with message queues (RabbitMQ, Kafka, or similar).
+
+Nice to have
+- AWS certifications.
+- Experience with Terraform or other infrastructure-as-code tools.
+- Experience mentoring other engineers.
+
+Employment type: Full-time
+Work mode: Remote (EU timezones)

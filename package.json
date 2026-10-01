@@ -1,0 +1,19 @@
+{
+  "name": "applyready",
+  "version": "0.0.1",
+  "private": true,
+  "description": "ApplyReady - her is ilanina ozel basvuru paketi (CV + on yazi + LinkedIn) hazirlayan SaaS MVP",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev",
+    "build:client": "npm --workspace client run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

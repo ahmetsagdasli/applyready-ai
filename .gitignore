@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Env
+.env
+.env.local
+*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Temp upload klasörü
+tmp/
+uploads/
+
+# Manuel test kosulari / kullanilmayan gorseller / scratch dosyalar
+test-results/
+images-cv/
+deneme.js

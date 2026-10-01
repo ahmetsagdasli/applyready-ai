@@ -1,0 +1,48 @@
+John Carter
+Backend Engineer
+Remote / Berlin, Germany
+john.carter@example.com
++49 151 2345 6789
+linkedin.com/in/johncarter
+github.com/johncarter
+
+Professional Summary
+Backend engineer with 4 years of experience building REST APIs and data
+pipelines in Node.js and Python. Strong background in PostgreSQL schema
+design, message queues, and containerized deployments with Docker. Have
+not worked with Kubernetes directly; deployments so far were to single-host
+Docker Compose setups and managed PaaS platforms (Render, Railway).
+
+Technical Skills
+- Node.js, Express, Python, FastAPI
+- PostgreSQL, Redis, RabbitMQ
+- Docker, Docker Compose, GitHub Actions (CI/CD)
+- REST API design, OpenAPI/Swagger
+- Unit testing with Jest and Pytest
+
+Experience
+Backend Engineer, DataForge GmbH, Berlin (2021 - Present)
+- Designed and built a multi-tenant billing API in Node.js/Express serving
+  12,000+ daily active customers.
+- Migrated a monolithic PHP service to a Python/FastAPI microservice,
+  reducing average response time by 40%.
+- Introduced RabbitMQ-based async job processing for invoice generation,
+  cutting end-of-month batch runtime from 6 hours to 40 minutes.
+- Containerized all services with Docker and set up GitHub Actions CI/CD
+  pipelines for automated testing and deployment.
+
+Backend Developer, Loopline Software, Hamburg (2019 - 2021)
+- Built REST APIs for a SaaS performance-review platform using Node.js and
+  PostgreSQL.
+- Wrote integration tests with Jest, increasing backend test coverage from
+  30% to 75%.
+
+Education
+B.Sc. Computer Science, University of Hamburg (2015 - 2019)
+
+Certifications
+- AWS Certified Developer - Associate
+
+Languages
+- English (fluent)
+- German (intermediate)
