@@ -31,7 +31,16 @@ export function AuthProvider({ children }) {
 
   function signUp(email, password) {
     if (!supabase) throw new Error('Supabase yapilandirilmamis.');
-    return supabase.auth.signUp({ email, password });
+    return supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        // Onay e-postasi kullaniciyi kaydin yapildigi ortama geri dondurur.
+        // Supabase Dashboard'daki Redirect URLs listesinde bu adresin izinli
+        // olmasi gerekir.
+        emailRedirectTo: `${window.location.origin}/dashboard`,
+      },
+    });
   }
 
   function signIn(email, password) {
