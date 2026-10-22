@@ -5,7 +5,7 @@ export const AI_ANALYSIS_ACTION = 'ai_application_analysis';
 
 // Plan bazli aylik limitler. unlimited = sinirsiz (null).
 const PLAN_LIMITS = {
-  free: 3,
+  free: 10,
   pro: 100,
   unlimited: null,
 };
