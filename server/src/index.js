@@ -56,6 +56,13 @@ app.use('/api/admin', adminRouter);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(env.PORT, () => {
-  console.log(`[server] ApplyReady API http://localhost:${env.PORT} (${env.NODE_ENV})`);
-});
+// Vercel, Express uygulamasini default export olarak serverless function'a
+// baglar. Yerel gelistirmede ise ayni modulu normal HTTP sunucusu olarak
+// dinlemeye devam ederiz.
+export default app;
+
+if (!process.env.VERCEL) {
+  app.listen(env.PORT, () => {
+    console.log(`[server] ApplyReady API http://localhost:${env.PORT} (${env.NODE_ENV})`);
+  });
+}
